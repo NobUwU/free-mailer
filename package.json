@@ -1,0 +1,32 @@
+{
+  "name": "free-mailer",
+  "version": "1.0.0",
+  "description": "Free mailer is a simple service using express.js and nodemailer to send emails with a custom address.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NobUwU/free-mailer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NobUwU/free-mailer/issues"
+  },
+  "homepage": "https://github.com/NobUwU/free-mailer#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.6",
+    "@types/nodemailer": "^6.4.4"
+  },
+  "dependencies": {
+    "@types/joi": "^17.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "nodemailer": "^6.7.0"
+  }
+}
