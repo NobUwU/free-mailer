@@ -8,7 +8,7 @@ Free mailer is a simple service using express.js and nodemailer to send emails w
 
 `POST` `/send`
 
-```json
+```js
 {
   transport: {
     host: "ip",
